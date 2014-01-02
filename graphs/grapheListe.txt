@@ -1,0 +1,8 @@
+1 duo
+2 hexagone
+3 etoile
+3 etoile plus longue (~ arbre n-aire)
+4 exemple de wassner
+5 cube
+6 pentacle  MARCHE PAS
+
