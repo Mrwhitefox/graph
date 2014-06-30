@@ -49,6 +49,7 @@ int simulation(float deltaT, int nbNode, node* node_list, node** node_tab, link*
    node* temp = node_list; int i;
    
    // FORCE DU RESSORT f = -k(x-lrepos)
+   // TODO: c'est mal optimisé, il faudrait parcourir directement la liste des liens
    for (i=0; i<nbNode; i++)  // pour chaque noeud
    {
       link* ll_tmp = link_list;
@@ -73,9 +74,10 @@ int simulation(float deltaT, int nbNode, node* node_list, node** node_tab, link*
          float delta_y = fabsf(node_tab[i]->pos_y-node_tab[j]->pos_y);
          float dist = sqrtf(delta_x*delta_x + delta_y*delta_y);
          
-         // on en déduit la norme de la force
+         // on en déduit la force
          float f = -k*(dist-lrepos);  // négatif = étiré, positif = contracté
          
+         // pour éviter de diviser par 0
          if (dist == 0)
          {
             ll_tmp = ll_tmp->next_link;
