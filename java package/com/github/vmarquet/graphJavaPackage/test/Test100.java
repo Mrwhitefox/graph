@@ -11,10 +11,11 @@ import javax.swing.JFrame;
 import java.lang.Thread;
 import javax.swing.WindowConstants;
 
+
 public class Test100 {
 
 	public static void main(String[] args) {
-		
+
 		// on remplit le modèle
 		GraphGeneratorRandom generator = new GraphGeneratorRandom(100);
 

@@ -3,13 +3,17 @@
 NORMAL="\\033[0;39m"  # reset
 RED="\\033[1;31m"
 
+if [[ ! -d build ]]; then
+	mkdir build
+fi
+
 # compilation
-COMPIL="javac -cp . com/github/vmarquet/graphJavaPackage/test/Test100.java"
+COMPIL="javac -cp . com/github/vmarquet/graphJavaPackage/*/*.java -d build"
 echo -e "${RED}$COMPIL${NORMAL}"
 eval "$COMPIL"
 
 # execution
-EXEC="java -cp . com.github.vmarquet.graphJavaPackage.test.Test100"
+EXEC="java -cp ./build com.github.vmarquet.graphJavaPackage.test.Test100"
 echo -e "${RED}$EXEC${NORMAL}"
 eval "$EXEC"
 
