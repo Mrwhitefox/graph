@@ -1,7 +1,7 @@
-package com.github.vmarquet.graphJavaPackage.controler;
+package com.github.vmarquet.graph.controler;
 
-import com.github.vmarquet.graphJavaPackage.model.*;
-import com.github.vmarquet.graphJavaPackage.view.*;
+import com.github.vmarquet.graph.model.*;
+import com.github.vmarquet.graph.view.*;
 
 import java.util.*; // pour les math
 

@@ -1,12 +1,12 @@
-package com.github.vmarquet.graphJavaPackage.test;
+package com.github.vmarquet.graph.test;
 
-import com.github.vmarquet.graphJavaPackage.model.SimulationModel;
-import com.github.vmarquet.graphJavaPackage.model.Node;
-import com.github.vmarquet.graphJavaPackage.model.Link;
-import com.github.vmarquet.graphJavaPackage.view.SimulationView;
-import com.github.vmarquet.graphJavaPackage.view.SimulationViewJPanel;
-import com.github.vmarquet.graphJavaPackage.controler.GraphReaderFromFile;
-import com.github.vmarquet.graphJavaPackage.controler.SimulationControler;
+import com.github.vmarquet.graph.model.SimulationModel;
+import com.github.vmarquet.graph.model.Node;
+import com.github.vmarquet.graph.model.Link;
+import com.github.vmarquet.graph.view.SimulationView;
+import com.github.vmarquet.graph.view.SimulationViewJPanel;
+import com.github.vmarquet.graph.controler.GraphReaderFromFile;
+import com.github.vmarquet.graph.controler.SimulationControler;
 import javax.swing.JFrame;
 import java.lang.Thread;
 import javax.swing.WindowConstants;

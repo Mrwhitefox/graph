@@ -8,12 +8,12 @@ if [[ ! -d build ]]; then
 fi
 
 # compilation
-COMPIL="javac -cp . com/github/vmarquet/graphJavaPackage/*/*.java -d build"
+COMPIL="javac -cp . com/github/vmarquet/graph/*/*.java -d build"
 echo -e "${RED}$COMPIL${NORMAL}"
 eval "$COMPIL"
 
 # execution
-EXEC="java -cp ./build com.github.vmarquet.graphJavaPackage.test.Test100"
+EXEC="java -cp ./build com.github.vmarquet.graph.test.Test100"
 echo -e "${RED}$EXEC${NORMAL}"
 eval "$EXEC"
 

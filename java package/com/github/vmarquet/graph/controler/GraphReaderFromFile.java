@@ -1,8 +1,8 @@
-package com.github.vmarquet.graphJavaPackage.controler;
+package com.github.vmarquet.graph.controler;
 
-import com.github.vmarquet.graphJavaPackage.model.SimulationModel;
-import com.github.vmarquet.graphJavaPackage.model.Node;
-import com.github.vmarquet.graphJavaPackage.model.Link;
+import com.github.vmarquet.graph.model.SimulationModel;
+import com.github.vmarquet.graph.model.Node;
+import com.github.vmarquet.graph.model.Link;
 import java.io.*;
 import java.util.Scanner;
 

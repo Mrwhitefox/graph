@@ -1,6 +1,6 @@
-package com.github.vmarquet.graphJavaPackage.view;
+package com.github.vmarquet.graph.view;
 
-import com.github.vmarquet.graphJavaPackage.model.*;
+import com.github.vmarquet.graph.model.*;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
 import java.awt.Color;

@@ -1,7 +1,7 @@
-package com.github.vmarquet.graphJavaPackage.model;
+package com.github.vmarquet.graph.model;
 
 import java.util.*; // pour les math
-import com.github.vmarquet.graphJavaPackage.model.*;
+import com.github.vmarquet.graph.model.*;
 
 public class SimulationModel {  // singleton pattern
 

@@ -1,4 +1,4 @@
-package com.github.vmarquet.graphJavaPackage.model;
+package com.github.vmarquet.graph.model;
 
 import java.awt.Color;
 
